@@ -88,7 +88,7 @@
    &kp ESCAPE   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp EQUAL
    &kp LEFT_ALT &kp A &kp S &kp D &kp F &kp G   &kp H &kp J &kp K &kp L &kp SEMICOLON &kp SINGLE_QUOTE
    &kp LEFT_CONTROL &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp MINUS
-                    	&kp LEFT_SHIFT &kp BSPC &kp TAB   &lt 6 ENTER &SPACE &to 0
+                    	&kp LEFT_SHIFT &kp BSPC &kp TAB   &lt 6 ENTER &kp SPACE &to 0
                         >;
                 };
                 val_layer {
@@ -102,7 +102,7 @@
    &kp ESCAPE   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp EQUAL
    &kp LEFT_SHIFT &kp A &kp S &kp D &kp F &kp G   &kp H &kp J &kp K &kp L &kp SEMICOLON &kp SINGLE_QUOTE
    &kp LEFT_CONTROL &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp MINUS
-                    	&kp LEFT_ALT &kp SPACE &kp TAB   &lt 6 BACKSPACE &SPACE &to 0
+                    	&kp LEFT_ALT &kp SPACE &kp TAB   &lt 6 BACKSPACE &kp SPACE &to 0
                         >;
                 };
                 func_layer {
