@@ -83,8 +83,8 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &trans &kp HOME &kp UP_ARROW &kp  END                &kp C_NEXT       &trans   &trans &trans &trans &trans &trans &trans
-   &trans &kp LEFT_ARROW &kp DOWN_ARROW &kp RIGHT_ARROW &kp C_PLAY_PAUSE &trans   &trans &trans &trans &trans &trans &trans
+   &trans &kp HOME &kp UP_ARROW &kp  END                &kp C_NEXT       &trans   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5
+   &trans &kp LEFT_ARROW &kp DOWN_ARROW &kp RIGHT_ARROW &kp C_PLAY_PAUSE &trans   &trans &bt BT_NXT &trans &bt BT_PRV &trans &bt BT_CLR
    &trans &kp PG_UP &trans &kp PG_DN                    &kp C_PREVIOUS   &trans   &trans &trans &trans &trans &trans &trans
                     	&trans &trans &trans   &trans &trans &trans
                         >;
