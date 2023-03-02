@@ -64,8 +64,8 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp GRAVE &kp PERCENT &kp AT_SIGN &kp HASH &kp DOLLAR &kp ASTERISK                          &trans &trans &trans &trans &trans &trans
-   &kp AMPERSAND &kp PIPE &kp LEFT_PARENTHESIS &kp LEFT_BRACE &kp LEFT_BRACKET &kp BACKSLASH   &tog 5 &trans &trans &trans &trans &trans
-   &kp EXCLAMATION &kp CARET &kp RIGHT_PARENTHESIS &kp RIGHT_BRACE &kp RIGHT_BRACKET &kp TILDE &tog 4 &trans &trans &trans &trans &trans
+   &kp AMPERSAND &kp PIPE &kp LEFT_PARENTHESIS &kp LEFT_BRACKET &kp LEFT_BRACE &kp BACKSLASH   &tog 5 &trans &trans &trans &trans &trans
+   &kp EXCLAMATION &kp CARET &kp RIGHT_PARENTHESIS &kp RIGHT_BRACKET &kp RIGHT_BRACE &kp TILDE &tog 4 &trans &trans &trans &trans &trans
                         &trans &trans &trans   &trans &trans &trans
                         >;
                 };
