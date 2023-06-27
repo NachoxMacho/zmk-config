@@ -78,9 +78,9 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &trans &trans &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &trans   &trans &trans &trans &trans &trans &trans
-   &trans &trans &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp NUMBER_0   &trans &trans &trans &trans &trans &trans
-   &trans &trans &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &trans   &trans &trans &trans &trans &trans &trans
+   &trans &trans &kp KP_NUMBER_7 &kp KP_NUMBER_8 &kp KP_NUMBER_9 &trans   &trans &trans &trans &trans &trans &trans
+   &trans &trans &kp KP_NUMBER_4 &kp KP_NUMBER_5 &kp KP_NUMBER_6 &kp KP_NUMBER_0   &trans &trans &trans &trans &trans &trans
+   &trans &trans &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp KP_NUMBER_3 &trans   &trans &trans &trans &trans &trans &trans
                     	&trans &trans &trans   &trans &trans &trans
                         >;
                 };
