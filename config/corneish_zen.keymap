@@ -38,6 +38,7 @@
                 bindings = <&mo>, <&kp>;
                 };
                 unstick: unstick {
+                label = "UNSTICK";
                 compatible = "zmk,behavior-macro";
                 #binding-cells = <0>;
                 bindings = <&kp LSHIFT &kp RSHIFT>;
