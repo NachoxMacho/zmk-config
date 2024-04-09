@@ -37,8 +37,16 @@
                 spam: spam {
                 label = "SPAM";
                 compatible = "zmk,behavior-macro";
+                wait-ms = <0>;
+                tap-ms = <0>;
                 #binding-cells = <0>;
-                bindings = <&kp LS(W) &kp LS(A) &kp LS(S) &kp LS(D)>;
+                bindings = <&macro_press &kp LEFT_SHIFT>
+                        , <&kp W>
+                        , <&kp S>
+                        , <&kp A>
+                        , <&kp D>
+                        , <&macro_release &kp LEFT_SHIFT>
+                        ;
                 };
         };
         keymap {
