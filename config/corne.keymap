@@ -34,20 +34,6 @@
                 #binding-cells = <0>;
                 bindings = <&kp LEFT_SHIFT &kp RIGHT_SHIFT &kp LEFT_GUI &kp RIGHT_WIN &kp RIGHT_CONTROL &kp LEFT_CONTROL &kp RIGHT_ALT &kp LEFT_ALT>;
                 };
-                spam: spam {
-                label = "SPAM";
-                compatible = "zmk,behavior-macro";
-                wait-ms = <0>;
-                tap-ms = <5>;
-                #binding-cells = <0>;
-                bindings = <&macro_press &kp LEFT_SHIFT>
-                        , <&kp W>
-                        , <&kp S>
-                        , <&kp A>
-                        , <&kp D>
-                        , <&macro_release &kp LEFT_SHIFT>
-                        ;
-                };
         };
         keymap {
                 compatible = "zmk,keymap";
@@ -99,7 +85,7 @@
                         bindings = <
    &kp ESCAPE   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp EQUAL
    &kp LEFT_ALT &kp A &kp S &kp D &kp F &kp G   &kp H &kp J &kp K &kp L &kp SEMICOLON &kp SINGLE_QUOTE
-   &kp LEFT_CONTROL &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &spam
+   &kp LEFT_CONTROL &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp MINUS
                     	&kp LEFT_SHIFT &kp BSPC &kp TAB   &lt 6 ENTER &kp SPACE &to 0
                         >;
                 };
