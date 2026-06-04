@@ -18,7 +18,7 @@
 #
 ---
 include:
-  - board: corneish_zen_v2_left
-  - board: corneish_zen_v2_right
+  - board: corneish_zen_left//zmk@2
+  - board: corneish_zen_right//zmk@2
   - board: nice_nano_v2
     shield: settings_reset
